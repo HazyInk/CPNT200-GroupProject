@@ -4,7 +4,7 @@
   - Job(s): TBA
 - [Ashkie]()
   - Job(s): TBA
-- [Emily]()
+- [Emily](https://github.com/Emilypearl91)
   - Job(s): TBA
 # Deployed Site
 TBA
