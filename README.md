@@ -1,10 +1,10 @@
 # CPNT200-GroupProject
 # Group Members
-- (Reilly)[https://github.com/HazyInk]
+- [Reilly] (https://github.com/HazyInk)
   - Job(s): TBA
-- (Ashkie)[]
+- [Ashkie]()
   - Job(s): TBA
-- (Emily)[]
+- [Emily]()
   - Job(s): TBA
 # Deployed Site
 TBA
