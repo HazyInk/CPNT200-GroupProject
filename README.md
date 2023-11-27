@@ -1,6 +1,6 @@
 # CPNT200-GroupProject
 # Group Members
-- [Reilly] (https://github.com/HazyInk)
+- [Reilly](https://github.com/HazyInk)
   - Job(s): TBA
 - [Ashkie]()
   - Job(s): TBA
