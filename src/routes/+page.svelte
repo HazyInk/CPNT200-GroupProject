@@ -1,2 +1,13 @@
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+
+<script>
+  export let data;
+  let { Blog_Post } = data;
+</script>
+
+{#each data.Blog_Post as Blog_Post}
+    <h1>{Blog_Post.Author}
+    </h1>
+  {/each}
