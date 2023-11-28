@@ -6,6 +6,8 @@
   - Job(s): TBA
 - [Emily](https://github.com/Emilypearl91)
   - Job(s): TBA
+# Projct Board
+[Link for easy access](https://github.com/users/HazyInk/projects/5)
 # Deployed Site
 TBA
 # Attributions
