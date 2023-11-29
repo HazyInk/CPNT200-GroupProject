@@ -1,3 +1,11 @@
+<header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Blog Page Placeholder</h1>
+      <a href="" class="button">Button</a>
+    </div>
+  </section>
+</header>
 
 <div class="maintext">
 <h1>Welcome to SvelteKit</h1>
@@ -18,6 +26,36 @@
 </div>
 
 <style>
+  .button{
+  border-radius: 10px;
+  padding:10px;
+  border-radius:10px;
+  background: #c97100;
+  background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
+  color:#9f7321;
+  
+  text-decoration:none;
+  border-style: groove;
+}
+.button:hover {
+  background: #c97100;
+  background: linear-gradient(180deg, #c97100 0%, #ff9814 12%, #ffdc45 48%, #fff100 82%);
+  color: #ffffff;
+}
+  .hero{
+    border-radius: 10px;
+  background: url(personal.png);
+  
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  height: 500px;
+  color:#fff8eb;
+}
+.hero-content{
+  padding:100px;
+  margin-inline:auto;
+}
   .maintext {
     text-align: center;
   }
