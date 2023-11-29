@@ -22,7 +22,8 @@
 <style>
   header {
     font-family: 'Libre Baskerville', serif;
-    background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
+    background: rgb(70,70,70);
+background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,7 @@
 
   li {
     font-size: 20px;
-    color: #c97100;
+    color: #000000;
     font-style: bold;
     text-decoration: none;
     padding-left: 2rem;
@@ -49,19 +50,19 @@
   a{
     font-style: none;
     text-decoration: none;
-    color: #c97100;
+    color: #000000;
     font-style: bold;
     padding: 0.5rem;
   }
 
   a:hover {
-    color:#ffff;
-    background: #c97100;
+    color:#ffffff;
+    background: #000000;
     border-radius: 30%;
   }
 
   svg {
     margin-left: 1rem;
-    fill: #c97100;
+    fill: #000000;
   }
 </style>

@@ -30,21 +30,22 @@
   border-radius: 10px;
   padding:10px;
   border-radius:10px;
-  background: #c97100;
-  background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
-  color:#9f7321;
+  background: rgb(70,70,70);
+background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
+  color:#ffffff;
   
   text-decoration:none;
   border-style: groove;
 }
 .button:hover {
-  background: #c97100;
-  background: linear-gradient(180deg, #c97100 0%, #ff9814 12%, #ffdc45 48%, #fff100 82%);
+  background: #ffffff;
+  background: rgb(70,70,70);
+background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
   color: #ffffff;
 }
   .hero{
     border-radius: 10px;
-  background: url(personal.png);
+  background: url(placeholder.jpg);
   
   text-align:center;
   background-size:cover;
