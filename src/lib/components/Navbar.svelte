@@ -1,8 +1,8 @@
 <script>
   const navItems = [
     {name: 'home', href: "/"},
-    {name:'menu', href:'/menu'},
-    {name:'events', href: '/events'}
+    {name:'navitem 1', href:'/'},
+    {name:'navitem 2', href: '/'}
   ];
 </script>
 
@@ -22,8 +22,7 @@
 <style>
   header {
     font-family: 'Libre Baskerville', serif;
-    background: rgb(70,70,70);
-background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
+    background: #000000;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +40,7 @@ background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, 
 
   li {
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
     font-style: bold;
     text-decoration: none;
     padding-left: 2rem;
@@ -50,19 +49,19 @@ background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, 
   a{
     font-style: none;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-style: bold;
     padding: 0.5rem;
   }
 
   a:hover {
     color:#ffffff;
-    background: #000000;
+    background: #707070;
     border-radius: 30%;
   }
 
   svg {
     margin-left: 1rem;
-    fill: #000000;
+    fill: #ffffff;
   }
 </style>

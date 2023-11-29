@@ -63,7 +63,7 @@ a {
 }
 
 a:hover{
-  background: #ffff;
-  background: #c97100;
+  background: #000000;
+  background: #707070;
 }
 </style>
