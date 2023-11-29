@@ -1,4 +1,3 @@
-<img id = "hero" src="personal.png" alt="alt">
 
 <div class="maintext">
 <h1>Welcome to SvelteKit</h1>
@@ -21,10 +20,5 @@
 <style>
   .maintext {
     text-align: center;
-  }
-  img {
-    border-radius: 1rem;
-    height: 500px;
-    width: 1450px;
   }
 </style>

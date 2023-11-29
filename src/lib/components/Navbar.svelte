@@ -17,7 +17,6 @@
       {/each}
     </ul>
   </nav>
-    <img src="../static/personal.png" alt="">
 </header>
 
 <style>
@@ -27,6 +26,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    text-align: end;
     align-items: center;
   }
 
