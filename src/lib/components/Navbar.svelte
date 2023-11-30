@@ -21,7 +21,7 @@
 
 <style>
   header {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'DM Serif Display', serif;
     background: #000000;
     border-radius: 20px;
     display: flex;

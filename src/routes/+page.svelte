@@ -1,3 +1,4 @@
+<main>
 <header>
   <section class="hero">
     <div class="hero-content">
@@ -11,6 +12,7 @@
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 </div>
+</main>
 
 
 <script>
@@ -26,6 +28,10 @@
 </div>
 
 <style>
+  :global(body){
+        background-color: #fff2c4;
+    }
+
   .button{
   border-radius: 10px;
   padding:10px;
@@ -44,7 +50,8 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   color: #ffffff;
 }
   .hero{
-    border-radius: 10px;
+    font-family: 'DM Serif Display', serif;
+  border-radius: 10px;
   background: url(placeholder.jpg);
   
   text-align:center;
@@ -59,5 +66,6 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
 }
   .maintext {
     text-align: center;
+    font-family: 'DM Serif Display', serif;
   }
 </style>

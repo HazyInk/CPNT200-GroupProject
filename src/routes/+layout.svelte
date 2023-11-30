@@ -8,3 +8,9 @@
 <slot />
 
 <Footer></Footer>
+
+<style>
+section {
+  background-color: aqua;
+     }
+</style>

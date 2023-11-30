@@ -31,7 +31,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'DM Serif Display', serif;
 }
 svg {
   stroke:#ffff;
