@@ -23,6 +23,7 @@
 <div class="maintext">
 {#each data.Blog_Post as Blog_Post}
     <h1>{Blog_Post.Author}
+      {Blog_Post.title}
     </h1>
   {/each}
 </div>
