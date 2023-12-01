@@ -28,8 +28,8 @@
       <p>{Blog_Post.blog_tags}</p>
     </div>
   {/each}
-</div>
 
+</div>
 <style>
   :global(body){
         background-color: #fff2c4;
