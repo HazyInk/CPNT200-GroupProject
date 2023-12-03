@@ -27,7 +27,10 @@
       <h2>Summary:</h2>
       <p>{Blog_Post.summary}</p>
       <h2>Tags:</h2>
-      <p>{Blog_Post.blog_tags}</p></a>
+      <p>{Blog_Post.blog_tags}</p>
+      <h3> Click Us For More</h3>
+    </a>
+      
     </div>
   {/each}
 
