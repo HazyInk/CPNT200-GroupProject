@@ -21,7 +21,7 @@
 
 <style>
   header {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Nova Square', sans-serif;
     background: #000000;
     border-radius: 20px;
     display: flex;

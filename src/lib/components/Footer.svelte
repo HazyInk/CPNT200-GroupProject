@@ -31,7 +31,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Nova Square', sans-serif;
   flex-wrap: wrap;
 }
 ul{

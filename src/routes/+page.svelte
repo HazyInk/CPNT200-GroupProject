@@ -34,7 +34,7 @@
 </div>
 <style>
   :global(body){
-        background-color: #fff2c4;
+        background-color: rgb(243, 235, 255);
     }
 
     .blog {
@@ -62,7 +62,7 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   color: #ffffff;
 }
   .hero{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Nova Square', sans-serif;
   border-radius: 10px;
   background: url(placeholder.jpg);
   
@@ -78,6 +78,15 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
 }
   .maintext {
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Nova Square', sans-serif;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: rgb(132, 112, 169);
   }
 </style>
