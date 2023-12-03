@@ -13,11 +13,13 @@
 <script>
   export let data;
   let { Blog_Post } = data;
+
 </script>
 
 <div class="maintext">
 {#each data.Blog_Post as Blog_Post}
 <div class="blog">
+  <a href="/blogs/{Blog_Post.id}" class="flex flex-col p-4">
     <h1>{Blog_Post.title}</h1>
     <h2>{Blog_Post.Author}</h2>
     <h2>Published on: {Blog_Post.published_date}</h2>
@@ -25,7 +27,7 @@
       <h2>Summary:</h2>
       <p>{Blog_Post.summary}</p>
       <h2>Tags:</h2>
-      <p>{Blog_Post.blog_tags}</p>
+      <p>{Blog_Post.blog_tags}</p></a>
     </div>
   {/each}
 
