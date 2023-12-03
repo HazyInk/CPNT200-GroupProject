@@ -1,11 +1,12 @@
 <script>
   export let data
- 
+  let { Blog_Post_Self } = data
   let { Blog_Post } = data
 </script>
 
 {#each Blog_Post as Blog_Post}
 <div class="text">
+  <!--Returns the user back to home page using the link /-->
   <a href="/">
     <h1>{Blog_Post.title}</h1>
     <h2>{Blog_Post.Author}</h2>
@@ -18,6 +19,15 @@
   </a>
 </div>
 {/each}
+
+{#each Blog_Post_Self as blogself }
+  <a href="/">
+  <h1>{blogself.name}</h1>
+  </a>
+  
+{/each }
+
+
 
 
 <style>

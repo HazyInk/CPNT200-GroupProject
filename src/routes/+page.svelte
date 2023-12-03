@@ -13,12 +13,14 @@
 <script>
   export let data;
   let { Blog_Post } = data;
+  let { Blog_Post_Self } = data;
 
 </script>
 
 <div class="maintext">
 {#each data.Blog_Post as Blog_Post}
 <div class="blog">
+  <!-- Links the blogpost to a different part using the ids of the blogpost-->
   <a href="/blogs/{Blog_Post.id}" class="flex flex-col p-4">
     <h1>{Blog_Post.title}</h1>
     <h2>{Blog_Post.Author}</h2>
@@ -33,6 +35,15 @@
       
     </div>
   {/each}
+
+  {#each data.Blog_Post_Self as Blog_Self }
+  <a href="/{Blog_Self.id}">
+    <h1>{Blog_Self.name}</h1>
+  </a>
+    
+  {/each}
+
+
 
 </div>
 <style>
