@@ -25,7 +25,6 @@
     <h1>{Blog_Post.title}</h1>
     <h2>{Blog_Post.Author}</h2>
     <h2>Published on: {Blog_Post.published_date}</h2>
-      {Blog_Post.content_area}
       <h2>Summary:</h2>
       <p>{Blog_Post.summary}</p>
       <h2>Tags:</h2>
@@ -36,11 +35,15 @@
     </div>
   {/each}
 
+  
   {#each data.Blog_Post_Self as Blog_Self }
-  <a href="/{Blog_Self.id}">
-    <h1>{Blog_Self.name}</h1>
-  </a>
-    
+  <div class="blog">
+    <a href="/{Blog_Self.id}">
+      <div class="title"><h1>Self Introduction</h1></div>
+      <h2>{Blog_Self.name}</h2>
+      <h3>Click Me for More</h3>
+    </a>
+  </div>  
   {/each}
 
 
