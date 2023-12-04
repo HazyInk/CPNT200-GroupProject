@@ -20,20 +20,24 @@
 </header>
 
 <style>
-svg {
-  fill: #ffffff;
+  header {
+    font-family: 'Nova Square', sans-serif;
+    background: #000000;
+  
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    align-items: center;
+    height: 100%;
+  }
 
-  margin-left: 1rem;
-}
-
-ul {
-  margin-right: 1rem;
-
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
+  ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 1rem;
+  }
 
 li {
   color: #ffffff;
