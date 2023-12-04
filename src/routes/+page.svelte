@@ -49,64 +49,55 @@
 
 </div>
 <style>
-  :global(body){
-        background-color: rgb(243, 235, 255);
-    }
-    .blog {
-      padding-top: 2rem;
-      padding-left: 10rem;
-      padding-right: 10rem;
-      padding-bottom: 2rem;
-    }
+.blog {
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
 
-  .button{
+.hero{
+  color:#fff8eb;
+
+  font-family: 'Nova Square', sans-serif;
+
+  height: 400px;
   border-radius: 10px;
-  padding:10px;
-  border-radius:10px;
-  background: rgb(70,70,70);
-background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
-  color:#ffffff;
-  
-  text-decoration:none;
-  border-style: groove;
-}
-.button:hover {
-  background: #ffffff;
-  background: rgb(70,70,70);
-background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
-  color: #ffffff;
-}
-  .hero{
-    font-family: 'Nova Square', sans-serif;
-  border-radius: 10px;
-  background: url(../../static/placeholder.jpg);
   
   text-align:center;
+  background: url(../../static/placeholder.jpg);
   background-size:cover;
   background-position:center;
-  height: 400px;
-  color:#fff8eb;
 }
+
+a {
+  color: black;
+    text-decoration: none;
+}
+
+a:hover {
+  color: rgb(45, 59, 139);
+}
+
+a:focus {
+  color: rgb(65, 90, 237);
+}
+
 .hero-content{
   padding: 10rem;
+
   margin-inline:auto;
   font-size: x-large;
 }
-  .maintext {
-    text-align: center;
-    font-family: 'Nova Square', sans-serif;
-    text-decoration: none;
-  }
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    color: rgb(45, 59, 139);
-  }
+.maintext {
+  font-family: 'Nova Square', sans-serif;
 
-  a:focus {
-    color: rgb(65, 90, 237);
-  }
+  text-align: center;
+  text-decoration: none;
+}
+
+:global(body){
+  background-color: rgb(243, 235, 255);
+}
 </style>

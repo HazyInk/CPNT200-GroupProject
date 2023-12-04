@@ -20,48 +20,58 @@
 </header>
 
 <style>
-  header {
-    font-family: 'Nova Square', sans-serif;
-    background: #000000;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    text-align: end;
-    align-items: center;
-  }
+svg {
+  fill: #ffffff;
 
-  ul {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin-right: 1rem;
-  }
+  margin-left: 1rem;
+}
 
-  li {
-    font-size: 20px;
-    color: #ffffff;
-    font-style: bold;
-    text-decoration: none;
-    padding-left: 2rem;
-  }
+ul {
+  margin-right: 1rem;
 
-  a{
-    font-style: none;
-    text-decoration: none;
-    color: #ffffff;
-    font-style: bold;
-    padding: 0.5rem;
-  }
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
 
-  a:hover {
-    color:#ffffff;
-    background: #707070;
-    border-radius: 30%;
-  }
+li {
+  color: #ffffff;
 
-  svg {
-    margin-left: 1rem;
-    fill: #ffffff;
-  }
+  padding-left: 2rem;
+
+  font-size: 20px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+
+  padding: 0.5rem;
+
+  font-style: none;
+  text-decoration: none;
+  font-style: bold;
+}
+
+a:hover {
+  color:#ffffff;
+  background: #707070;
+
+  border-radius: 30%;
+}
+
+header {
+  background: #000000;
+
+  font-family: 'Nova Square', sans-serif;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  align-items: center;
+}
 </style>
