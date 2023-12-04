@@ -2,7 +2,7 @@
 <header>
   <section class="hero">
     <div class="hero-content">
-      <h1>Blog Page Placeholder</h1>
+      <h1>Cpnt200-Blog</h1>
     </div>
   </section>
 </header>
@@ -20,10 +20,12 @@
 {#each data.Blog_Post_Self as Blog_Self }
 <div class="blog">
   <a href="/{Blog_Self.id}">
+<section class="blogCard">
     <div class="title"><h1>Self Introduction</h1></div>
     <h2>{Blog_Self.name}</h2>
     <h3>Click Me for More</h3>
-  </a>
+  </section>
+</a>
 </div>  
 {/each}
 
@@ -45,6 +47,21 @@
     </a>
       
     </div>
+    
+  {/each}
+
+
+  
+  {#each data.Blog_Post_Self as Blog_Self }
+  <div class="blog">
+    <a href="/{Blog_Self.id}">
+      <section class="blogCard">
+      <div class="title"><h1>Self Introduction</h1></div>
+      <h2>{Blog_Self.name}</h2>
+      <h3>Click Me for More</h3>
+    </section>
+    </a>
+  </div>  
   {/each}
 </div>
 
@@ -79,13 +96,23 @@ a {
   text-decoration: none;
 }
 
-.blogCard:hover {
-  color: rgb(45, 59, 139);
-  background-color: black;
-}
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .blogCard:hover {
+    color: #BB6EC0;
+    background-color: black;
+  }
 
-.blogCard:focus {
-  color: rgb(65, 90, 237);
-  background-color: rgb(44, 44, 71);
-}
+  .blogCard{
+  max-width: 80ch;
+  margin: auto;
+  margin-top: .5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  
+  color: black;
+  background-color: #BB6EC0;
+  }
 </style>

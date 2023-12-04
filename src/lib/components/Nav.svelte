@@ -61,12 +61,11 @@ a {
   font-style: bold;
 }
 
-a:hover {
-  color:#ffffff;
-  background: #707070;
-
-  border-radius: 30%;
-}
+  a:hover {
+    color:#ffffff;
+    background: #707070;
+    border-radius: 5%;
+  }
 
 header {
   background: #000000;

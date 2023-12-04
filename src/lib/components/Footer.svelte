@@ -52,10 +52,7 @@ a {
   color: #ffff;
 
   padding: 0.4rem;
-  border-radius: 20%;
-
-  list-style-type: none;
-  text-decoration: none;
+  border-radius: 5%;
 }
 
 a:hover{
