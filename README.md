@@ -39,3 +39,4 @@
 [Netlify Link](https://radiant-moxie-db4871.netlify.app/)
 # Attributions
 - [Banner Image](https://unsplash.com/photos/silhouette-photo-of-mountain-during-night-time-ln5drpv_ImI) by [Vincentiu Solomon](https://unsplash.com/@vincentiu)
+- [Blog SVG Logo](https://www.svgrepo.com/svg/351781/blog) by [Fontawesome](https://fontawesome.com/)
