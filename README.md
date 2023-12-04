@@ -8,14 +8,7 @@
       - Use of whitespace
       - Visual hierarchy principles
       - interactions (hover and click etc) are easy to follow and use
-    - Sveltekit App Code Quality
-      - Normal routes are used for landing pages (non dynamic)
-      - Dynamic routes are used for posts
-      - Component naming conventions
-      - Directory structure
-      - backend load functions
-      - variable and function naming
-      - object, array, and function design 
+
 - [Ashkie](https://github.com/AshkieCharles)
   - Job(s): 
     - DataBase Configuration(All)
@@ -29,12 +22,6 @@
 
 - [Emily](https://github.com/Emilypearl91)
     - Job(s):
-    - Sveltekit App Design Quality
-      - Accessible fonts and contrast
-      - Responsive design
-      - Use of whitespace
-      - Visual hierarchy principles
-      - interactions (hover and click etc) are easy to follow and use
     - Sveltekit App Code Quality
       - Normal routes are used for landing pages (non dynamic)
       - Dynamic routes are used for posts
