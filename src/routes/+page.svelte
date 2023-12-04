@@ -80,7 +80,7 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   .hero{
     font-family: 'Nova Square', sans-serif;
   border-radius: 10px;
-  background: url(/static/placeholder.jpg);
+  background: url(../../static/placeholder.jpg);
   
   text-align:center;
   background-size:cover;
