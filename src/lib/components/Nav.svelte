@@ -28,6 +28,7 @@
     justify-content: space-between;
     text-align: end;
     align-items: center;
+    height: 100%;
   }
 
   ul {

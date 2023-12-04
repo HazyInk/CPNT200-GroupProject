@@ -65,6 +65,7 @@
       padding-left: 10rem;
       padding-right: 10rem;
       padding-bottom: 2rem;
+      height: 100%;
     }
 
   .button{
@@ -110,8 +111,9 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
     text-decoration: none;
     color: black;
   }
-  a:hover {
-    color: rgb(45, 59, 139);
+  .blogCard:hover {
+    color: #BB6EC0;
+    background-color: black;
   }
 
   .blogCard {
@@ -122,8 +124,9 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   padding: 2rem;
   border-radius: 1rem;
 
-  background-color: black;
-  color: white;
+  background-color: #BB6EC0;
+  
   
   }
+
 </style>
