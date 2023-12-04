@@ -1,8 +1,8 @@
 <script>
   const footerItems = [
-  {name: 'Github', href: "/"},
-  {name: 'Gitprojects', href: "/"},
-  {name: 'Googledocs', href: "/"}
+  {name: 'Github', href: "https://github.com/HazyInk/CPNT200-GroupProject"},
+  {name: 'Gitprojects', href: "https://github.com/users/HazyInk/projects/5"},
+  {name: 'Googledocs', href: "https://docs.google.com/document/d/1R6fcox4HRMVbZqfHp--8djweU30OU-66LRDmomFtEIc/edit?usp=sharing"}
 ];
 </script>
 <footer>
