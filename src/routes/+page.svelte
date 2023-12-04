@@ -17,10 +17,13 @@
 </script>
 
 <div class="maintext">
+
+
 {#each data.Blog_Post as Blog_Post}
 <div class="blog">
   <!-- Links the blogpost to a different part using the ids of the blogpost-->
   <a href="/blogs/{Blog_Post.id}" class="flex flex-col p-4">
+    <section class="blogCard">
     <h1>Reviews</h1>
     <h2>{Blog_Post.title}</h2>
     <h2>{Blog_Post.Author}</h2>
@@ -30,18 +33,22 @@
       <h2>Tags:</h2>
       <p>{Blog_Post.blog_tags}</p>
       <h3> Click Us For More</h3>
+    </section>
     </a>
       
     </div>
   {/each}
 
+
   
   {#each data.Blog_Post_Self as Blog_Self }
   <div class="blog">
     <a href="/{Blog_Self.id}">
+      <section class="blogCard">
       <div class="title"><h1>Self Introduction</h1></div>
       <h2>{Blog_Self.name}</h2>
       <h3>Click Me for More</h3>
+    </section>
     </a>
   </div>  
   {/each}
@@ -105,5 +112,18 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   }
   a:hover {
     color: rgb(45, 59, 139);
+  }
+
+  .blogCard {
+  max-width: 80ch;
+  max-height: 600px;
+  margin: auto;
+  margin-top: .5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  background-color: black;
+  color: white;
+  
   }
 </style>
