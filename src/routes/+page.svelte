@@ -23,6 +23,7 @@
 <section class="blogCard">
     <div class="title"><h1>Self Introduction</h1></div>
     <h2>{Blog_Self.name}</h2>
+    <h2>{Blog_Self.quick_about}</h2>
     <h3>Click Me for More</h3>
   </section>
 </a>
