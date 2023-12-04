@@ -42,10 +42,10 @@ a:focus {
 .text {
   font-family: 'Nova Square', sans-serif;
 
-  padding-top: 2rem;
+  padding-top: 10rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
 
   text-align: center;
   text-decoration: none;

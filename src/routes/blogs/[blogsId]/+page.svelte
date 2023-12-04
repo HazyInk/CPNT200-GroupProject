@@ -33,7 +33,7 @@
 <style>
 a {
   color: black;
-  
+
   text-decoration: none;
 }
 a:hover {
@@ -47,10 +47,10 @@ a:focus {
 .text {
   font-family: 'Nova Square', sans-serif;
 
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 
   text-align: center;
   text-decoration: none;
