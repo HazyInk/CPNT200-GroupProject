@@ -10,7 +10,7 @@ const obj = [
 
 <div class="card-container">
   {#each obj as { title, author, published, body, summary, tags } (title)}
-    <Card title={title} author={author} published={published} body={body} summary={summary} tags={tags} />
+    <Card title={title} author={author} published={published} body={body} summary={summary} />
   {/each}
 </div>
 

@@ -53,7 +53,6 @@
   :global(body){
         background-color: rgb(243, 235, 255);
     }
-
     .blog {
       padding-top: 2rem;
       padding-left: 10rem;
@@ -104,6 +103,6 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
     color: black;
   }
   a:hover {
-    color: rgb(132, 112, 169);
+    color: rgb(45, 59, 139);
   }
 </style>
