@@ -16,6 +16,7 @@
 
 </script>
 
+<a id="self-intros">
 <div class="maintext">
 {#each data.Blog_Post_Self as Blog_Self }
 <div class="blog">
@@ -29,7 +30,9 @@
 </a>
 </div>  
 {/each}
+</a>
 
+<a id="reviews">
 {#each data.Blog_Post as Blog_Post}
 <div class="blog">
   <!-- Links the blogpost to a different part using the ids of the blogpost-->
@@ -50,7 +53,7 @@
     </div>
     
   {/each}
-</div>
+</a>
 
 <style>
 :global(body){
