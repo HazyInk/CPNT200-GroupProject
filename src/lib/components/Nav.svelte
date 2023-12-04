@@ -1,8 +1,8 @@
 <script>
   const navItems = [
-    {name: 'home', href: "/"},
-    {name:'navitem 1', href:'/'},
-    {name:'navitem 2', href: '/'}
+    {name: 'Home', href: "/"},
+    {name:'Submit A Post', href:'/'},
+    {name:'Contact Us', href: '/'}
   ];
 </script>
 

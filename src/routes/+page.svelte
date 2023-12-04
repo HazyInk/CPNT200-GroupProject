@@ -4,7 +4,6 @@
     <div class="hero-content">
       <h1>Blog Page Placeholder</h1>
     </div>
-    <a href="https://github.com/HazyInk/CPNT200-GroupProject#readme" class="button">Button</a>
   </section>
 </header>
 </main>
@@ -85,8 +84,9 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   color:#fff8eb;
 }
 .hero-content{
-  padding: 5rem;
+  padding: 10rem;
   margin-inline:auto;
+  font-size: x-large;
 }
   .maintext {
     text-align: center;
