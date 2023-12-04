@@ -2,7 +2,7 @@
 <header>
   <section class="hero">
     <div class="hero-content">
-      <h1>Blog Page Placeholder</h1>
+      <h1>Cpnt200-Blog</h1>
     </div>
   </section>
 </header>
