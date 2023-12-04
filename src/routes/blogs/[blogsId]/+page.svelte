@@ -39,6 +39,10 @@
     color: rgb(132, 112, 169);
   }
 
+  a:focus {
+    color: rgb(65, 90, 237);
+  }
+
   .text {
     text-align: center;
     font-family: 'Nova Square', sans-serif;

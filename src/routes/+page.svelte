@@ -106,4 +106,8 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   a:hover {
     color: rgb(45, 59, 139);
   }
+
+  a:focus {
+    color: rgb(65, 90, 237);
+  }
 </style>

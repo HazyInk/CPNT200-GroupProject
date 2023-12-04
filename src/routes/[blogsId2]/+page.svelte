@@ -32,7 +32,11 @@
     color: black;
   }
   a:hover {
-    color: rgb(132, 112, 169);
+    color: rgb(45, 59, 139);
+  }
+
+  a:focus {
+    color: rgb(65, 90, 237);
   }
 
   .text {
