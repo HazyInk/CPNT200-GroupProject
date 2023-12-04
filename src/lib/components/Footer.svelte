@@ -52,7 +52,7 @@ a {
   text-decoration: none;
   color: #ffff;
   padding: 0.4rem;
-  border-radius: 20%;
+  border-radius: 5%;
 }
 
 a:hover{

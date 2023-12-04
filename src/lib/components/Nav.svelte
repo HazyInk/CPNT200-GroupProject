@@ -58,7 +58,7 @@
   a:hover {
     color:#ffffff;
     background: #707070;
-    border-radius: 30%;
+    border-radius: 5%;
   }
 
   svg {
