@@ -23,7 +23,7 @@
   header {
     font-family: 'Nova Square', sans-serif;
     background: #000000;
-    border-radius: 20px;
+  
     display: flex;
     justify-content: space-between;
     text-align: end;
