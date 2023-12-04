@@ -23,11 +23,12 @@
     <h1>{Blog_Post.title}</h1>
     <h2>{Blog_Post.Author}</h2>
     <h2>Published on: {Blog_Post.published_date}</h2>
-      {Blog_Post.content_area}
       <h2>Summary:</h2>
       <p>{Blog_Post.summary}</p>
       <h2>Tags:</h2>
-      <p>{Blog_Post.blog_tags}</p></a>
+      <p>{Blog_Post.blog_tags}</p>
+      <h4>Click to see full story.</h4>
+    </a>
     </div>
   {/each}
 
@@ -36,7 +37,6 @@
   :global(body){
         background-color: rgb(243, 235, 255);
     }
-
     .blog {
       padding-top: 2rem;
       padding-left: 10rem;
@@ -87,6 +87,6 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
     color: black;
   }
   a:hover {
-    color: rgb(132, 112, 169);
+    color: rgb(45, 59, 139);
   }
 </style>

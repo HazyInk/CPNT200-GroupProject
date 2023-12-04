@@ -4,6 +4,7 @@
   let { Blog_Post } = data
 </script>
 
+
 {#each Blog_Post as Blog_Post}
 <div class="text">
   <a href="/">
@@ -26,7 +27,7 @@
     color: black;
   }
   a:hover {
-    color: rgb(132, 112, 169);
+    color: rgb(45, 59, 139);
   }
 
   .text {
