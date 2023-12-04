@@ -5,6 +5,7 @@
   {name: 'Googledocs', href: "https://docs.google.com/document/d/1R6fcox4HRMVbZqfHp--8djweU30OU-66LRDmomFtEIc/edit?usp=sharing"}
 ];
 </script>
+<section class="w-full bg-black h-12">
 <footer>
   <iframe title="" src="https://calendar.google.com/calendar/embed?src=reillysheapaston%40gmail.com&ctz=America%2FEdmonton" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <ul>
@@ -14,7 +15,7 @@
 </ul>
 <p>&copy;Ashkie, Reilly & Emily</p>
 </footer>
-
+</section>
 <style>
 iframe {
   padding: 2rem;
@@ -25,7 +26,7 @@ iframe {
 }
 footer {
   background-color: #000000;
-  border-radius: 20px;
+  
   width: 100%;
   color: #ffff;
   display: flex;
