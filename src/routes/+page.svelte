@@ -22,7 +22,8 @@
 <div class="blog">
   <!-- Links the blogpost to a different part using the ids of the blogpost-->
   <a href="/blogs/{Blog_Post.id}" class="flex flex-col p-4">
-    <h1>{Blog_Post.title}</h1>
+    <h1>Reviews</h1>
+    <h2>{Blog_Post.title}</h2>
     <h2>{Blog_Post.Author}</h2>
     <h2>Published on: {Blog_Post.published_date}</h2>
       <h2>Summary:</h2>
