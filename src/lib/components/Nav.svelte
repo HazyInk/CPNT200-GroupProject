@@ -21,14 +21,16 @@
 
 <style>
   header {
-    font-family: 'Nova Square', sans-serif;
     background: #000000;
+
+    font-family: 'Nova Square', sans-serif;
+
+    height: 100%;
   
     display: flex;
     justify-content: space-between;
     text-align: end;
     align-items: center;
-    height: 100%;
   }
 
   ul {
@@ -39,30 +41,41 @@
     margin-right: 1rem;
   }
 
-  li {
-    font-size: 20px;
-    color: #ffffff;
-    font-style: bold;
-    text-decoration: none;
-    padding-left: 2rem;
-  }
+li {
+  color: #ffffff;
 
-  a{
-    font-style: none;
-    text-decoration: none;
-    color: #ffffff;
-    font-style: bold;
-    padding: 0.5rem;
-  }
+  padding-left: 2rem;
+
+  font-size: 20px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+
+  padding: 0.5rem;
+
+  font-style: none;
+  text-decoration: none;
+  font-style: bold;
+}
 
   a:hover {
     color:#ffffff;
     background: #707070;
-    border-radius: 30%;
+
+    border-radius: 5%;
   }
 
-  svg {
-    margin-left: 1rem;
-    fill: #ffffff;
-  }
+header {
+  background: #000000;
+
+  font-family: 'Nova Square', sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  align-items: center;
+}
 </style>

@@ -27,25 +27,27 @@
 
 
 <style>
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    color: rgb(45, 59, 139);
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(45, 59, 139);
+}
 
-  a:focus {
-    color: rgb(65, 90, 237);
-  }
+a:focus {
+  color: rgb(65, 90, 237);
+}
 
-  .text {
-    text-align: center;
-    font-family: 'Nova Square', sans-serif;
-    text-decoration: none;
-    padding-top: 2rem;
-      padding-left: 10rem;
-      padding-right: 10rem;
-      padding-bottom: 2rem;
-  }
+.text {
+  font-family: 'Nova Square', sans-serif;
+
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+
+  text-align: center;
+  text-decoration: none;
+}
 </style>

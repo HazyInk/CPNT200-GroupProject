@@ -16,47 +16,63 @@
 <p>&copy;Ashkie, Reilly & Emily</p>
 </footer>
 </section>
+
 <style>
 iframe {
-  padding: 2rem;
   border: #000000;
+
+  padding: 2rem;
   border-radius: 20px;
   height: 200px;
   width: 300px;
 }
+
 footer {
   background-color: #000000;
+  color: #ffff;
+
+  font-family: 'Nova Square', sans-serif;
   
   width: 100%;
-  color: #ffff;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Nova Square', sans-serif;
   flex-wrap: wrap;
 }
+
 ul{
   display: flex;
   justify-self: flex-end;
   list-style-type: none;
-
 }
 
-  li {
-    padding: 1rem;
-    
-  }
+li {
+  padding: 1rem;
+}
 
 a {
-  list-style-type: none;
-  text-decoration: none;
   color: #ffff;
+
   padding: 0.4rem;
-  border-radius: 20%;
+  border-radius: 5%;
 }
 
 a:hover{
   background: #000000;
   background: #707070;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffff;
+
+  font-family: 'Nova Square', sans-serif;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 </style>
