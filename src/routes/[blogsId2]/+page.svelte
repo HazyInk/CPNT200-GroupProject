@@ -4,7 +4,6 @@
   let { Blog_Post_Self } = data
 </script>
 
-<div class="text">
 {#each Blog_Post_Self as selfblog }
 <div class="text">
   <a href="/">
