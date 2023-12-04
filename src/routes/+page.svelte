@@ -77,32 +77,40 @@
 }
 
 .hero-content {
-  font-size: x-large;
+  color: beige;
+
   padding: 10rem;
+
+  font-size: x-large;
 }
 
 a {
   color: black;
+
   text-decoration: none;
 }
 
   a {
-    text-decoration: none;
     color: black;
+    
+    text-decoration: none;
   }
+
   .blogCard:hover {
-    color: #BB6EC0;
-    background-color: black;
+    color: #ffffff;
+    background-color: #683eaf;
   }
 
   .blogCard{
+  text-align:center;
+
   max-width: 80ch;
   margin: auto;
   margin-top: .5rem;
   padding: 2rem;
   border-radius: 1rem;
   
-  color: black;
-  background-color: #BB6EC0;
+  color: rgb(255, 255, 255);
+  background-color: #9973d9;
   }
 </style>
