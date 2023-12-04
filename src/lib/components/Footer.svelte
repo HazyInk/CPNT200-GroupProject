@@ -16,6 +16,7 @@
 <p>&copy;Ashkie, Reilly & Emily</p>
 </footer>
 </section>
+
 <style>
 iframe {
   border: #000000;
@@ -27,13 +28,14 @@ iframe {
 }
 footer {
   background-color: #000000;
+  color: #ffff;
+
+  font-family: 'Nova Square', sans-serif;
   
   width: 100%;
-  color: #ffff;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Nova Square', sans-serif;
   flex-wrap: wrap;
 }
 ul{
@@ -67,7 +69,6 @@ footer {
 
   font-family: 'Nova Square', sans-serif;
 
-  border-radius: 20px;
   width: 100%;
 
   display: flex;

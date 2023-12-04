@@ -32,8 +32,9 @@
 
 <style>
 a {
-  text-decoration: none;
   color: black;
+  
+  text-decoration: none;
 }
 a:hover {
   color: rgb(45, 59, 139);
@@ -44,12 +45,14 @@ a:focus {
 }
 
 .text {
-  text-align: center;
   font-family: 'Nova Square', sans-serif;
-  text-decoration: none;
+
   padding-top: 2rem;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 2rem;
+
+  text-align: center;
+  text-decoration: none;
 }
 </style>

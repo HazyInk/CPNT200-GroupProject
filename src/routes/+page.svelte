@@ -45,58 +45,26 @@
     </a>
       
     </div>
-    </div>
   {/each}
-
-
-  
-  {#each data.Blog_Post_Self as Blog_Self }
-  <div class="blog">
-    <a href="/{Blog_Self.id}">
-      <section class="blogCard">
-      <div class="title"><h1>Self Introduction</h1></div>
-      <h2>{Blog_Self.name}</h2>
-      <h3>Click Me for More</h3>
-    </section>
-    </a>
-  </div>  
-  {/each}
-
-
-
 </div>
-<style>
-  :global(body){
-        background-color: rgb(243, 235, 255);
-        margin: 0;
-    }
-    .blog {
-      padding-top: 2rem;
-      padding-left: 10rem;
-      padding-right: 10rem;
-      padding-bottom: 2rem;
-      height: 100%;
-    }
 
-  .button{
-  border-radius: 10px;
-  padding:10px;
-  border-radius:10px;
-  background: rgb(70,70,70);
-background: linear-gradient(0deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
-  color:#ffffff;
+<style>
+:global(body){
+  background-color: rgb(243, 235, 255);
   
-  text-decoration:none;
-  border-style: groove;
+  margin: 0;
 }
-.button:hover {
-  background: #ffffff;
-  background: rgb(70,70,70);
-background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%, rgba(236,236,236,1) 100%);
-  color: #ffffff;
+
+.blog {
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+  height: 100%;
 }
-  .hero{
-    font-family: 'Nova Square', sans-serif;
+    
+.hero{
+  font-family: 'Nova Square', sans-serif;
   
   background: url(../../static/placeholder.jpg);
   
@@ -108,15 +76,16 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
 
 a {
   color: black;
-    text-decoration: none;
+  text-decoration: none;
 }
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  .blogCard:hover {
-    color: #BB6EC0;
-    background-color: black;
-  }
+.blogCard:hover {
+  color: rgb(45, 59, 139);
+  background-color: black;
+}
+
+.blogCard:focus {
+  color: rgb(65, 90, 237);
+  background-color: rgb(44, 44, 71);
+}
 </style>

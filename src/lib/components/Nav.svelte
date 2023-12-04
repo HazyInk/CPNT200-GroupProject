@@ -21,14 +21,16 @@
 
 <style>
   header {
-    font-family: 'Nova Square', sans-serif;
     background: #000000;
+
+    font-family: 'Nova Square', sans-serif;
+
+    height: 100%;
   
     display: flex;
     justify-content: space-between;
     text-align: end;
     align-items: center;
-    height: 100%;
   }
 
   ul {
@@ -70,8 +72,6 @@ header {
   background: #000000;
 
   font-family: 'Nova Square', sans-serif;
-
-  border-radius: 20px;
 
   display: flex;
   justify-content: space-between;
