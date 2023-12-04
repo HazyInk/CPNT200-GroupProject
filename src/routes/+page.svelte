@@ -20,10 +20,12 @@
 {#each data.Blog_Post_Self as Blog_Self }
 <div class="blog">
   <a href="/{Blog_Self.id}">
+<section class="blogCard">
     <div class="title"><h1>Self Introduction</h1></div>
     <h2>{Blog_Self.name}</h2>
     <h3>Click Me for More</h3>
-  </a>
+  </section>
+</a>
 </div>  
 {/each}
 
@@ -45,7 +47,7 @@
     </a>
       
     </div>
-    </div>
+    
   {/each}
 
 
@@ -124,5 +126,16 @@ background: linear-gradient(184deg, rgba(70,70,70,1) 0%, rgba(133,133,133,1) 53%
   .blogCard:hover {
     color: #BB6EC0;
     background-color: black;
+  }
+
+  .blogCard{
+  max-width: 80ch;
+  margin: auto;
+  margin-top: .5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  
+  color: black;
+  background-color: #BB6EC0;
   }
 </style>
