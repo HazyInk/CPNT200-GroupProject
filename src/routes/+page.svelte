@@ -34,11 +34,15 @@
     </div>
   {/each}
 
+  
   {#each data.Blog_Post_Self as Blog_Self }
-  <a href="/{Blog_Self.id}">
-    <h1>{Blog_Self.name}</h1>
-  </a>
-    
+  <div class="blog">
+    <a href="/{Blog_Self.id}">
+      <div class="title"><h1>Self Introduction</h1></div>
+      <h2>{Blog_Self.name}</h2>
+      <h3>Click Me for More</h3>
+    </a>
+  </div>  
   {/each}
 
 
