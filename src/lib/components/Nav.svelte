@@ -64,6 +64,7 @@ a {
   a:hover {
     color:#ffffff;
     background: #707070;
+
     border-radius: 5%;
   }
 

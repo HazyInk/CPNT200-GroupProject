@@ -26,6 +26,7 @@ iframe {
   height: 200px;
   width: 300px;
 }
+
 footer {
   background-color: #000000;
   color: #ffff;
@@ -38,6 +39,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
 ul{
   display: flex;
   justify-self: flex-end;

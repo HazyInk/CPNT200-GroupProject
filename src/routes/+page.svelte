@@ -49,20 +49,6 @@
     </div>
     
   {/each}
-
-
-  
-  {#each data.Blog_Post_Self as Blog_Self }
-  <div class="blog">
-    <a href="/{Blog_Self.id}">
-      <section class="blogCard">
-      <div class="title"><h1>Self Introduction</h1></div>
-      <h2>{Blog_Self.name}</h2>
-      <h3>Click Me for More</h3>
-    </section>
-    </a>
-  </div>  
-  {/each}
 </div>
 
 <style>
@@ -84,11 +70,15 @@
   font-family: 'Nova Square', sans-serif;
   
   background: url(../../static/placeholder.jpg);
-  
-  text-align:center;
-  background: url(../../static/placeholder.jpg);
   background-size:cover;
   background-position:center;
+  
+  text-align:center;
+}
+
+.hero-content {
+  font-size: x-large;
+  padding: 10rem;
 }
 
 a {
